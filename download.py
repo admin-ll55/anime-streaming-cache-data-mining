@@ -66,7 +66,9 @@ for _in in _ins:
             def job(_, p):
                 try:
                     sema.acquire()
-                    if not r[-1].startswith("/"):
+                    if "://" in _:
+                        link = _
+                    elif not _.startswith("/"):
                         link = m3u8.replace("index.m3u8", _)
                     else:
                         link = re.search(r".*?(?:\:\/\/).*?\/", m3u8)[0]+_[1:]
