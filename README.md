@@ -34,8 +34,7 @@ Enter Choice: 1
 http://www.haozy.cc/?m=vod-detail-id-46603.html
 猫娘乐园
 	Z:\www\stream\猫娘乐园\
-		Z:\www\stream\猫娘乐园\猫娘乐园00001.ts
-			copy /b "Z:\www\stream\猫娘乐园\猫娘乐园00001\*.ts" "Z:\www\stream\猫娘乐园\猫娘乐园00001.ts"
+		Z:\www\stream\猫娘乐园\00001.ts
 ..
 ```
 
