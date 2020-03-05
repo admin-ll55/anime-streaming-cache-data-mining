@@ -1,4 +1,4 @@
-# anime-streaming-cache
+# anime streaming cache data mining
 本地緩存動漫資源採集（簡中片源）
 
 # Configuration
