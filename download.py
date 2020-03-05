@@ -33,6 +33,7 @@ try:
         dldir += f"\\{title}\\"
         print("\t"+dldir)
         i = 0
+        m3u8s = sorted(set(m3u8s), key=m3u8s.index)
         for m3u8 in m3u8s:
             i += 1
             dir = dldir+str(i).zfill(5)
